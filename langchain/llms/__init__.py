@@ -72,4 +72,5 @@ type_to_cls_dict: Dict[str, Type[BaseLLM]] = {
     "self_hosted_hugging_face": SelfHostedHuggingFaceLLM,
     "stochasticai": StochasticAI,
     "writer": Writer,
+    "openai-chat": OpenAIChat,
 }
